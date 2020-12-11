@@ -20,3 +20,6 @@ We have to make sure this art piece is completely refined and everything is work
 WOW factor: Crazy facts and information that few people know about the animals we discuss. Perhaps a way of getting facts: 100 weird facts book, Joe Roganhas some crazy videos about animals, 
 
 Big Ticket Idea: Search Bar that searches from the database on the animals we have put information on.
+
+Project Board Link:
+https://github.com/andrewc26/P2Wildcats/projects/1
