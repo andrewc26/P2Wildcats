@@ -3,19 +3,19 @@ import sqlite3
 #if you want to add more cats, add to this list, use the same format. Note how to last {} doesn't have a comma after it
 cats = [
     {
-        "name": "Travis",
+        "name": "Wildcat Picture 1",
         "path": "../static/images/travis.jpg",
-        "description": "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter."
+        "description": "Here we will write a paragraph about the specific animal and a short description with some information"
     },
     {
-        "name": "Hale",
+        "name": "Wildcat Picture 2",
         "path": "../static/images/hale.jpg",
-        "description": "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter."
+        "description": "Here we will write a paragraph about the specific animal and a short description with some information"
     },
     {
-        "name": "Abhinav",
+        "name": "Wildcat Picture 3",
         "path": "../static/images/abhinav.jpg",
-        "description": "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter."
+        "description":"Here we will write a paragraph about the specific animal and a short description with some information"
     }
 ]
 
