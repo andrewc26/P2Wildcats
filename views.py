@@ -1,6 +1,4 @@
-from flask import Flask
-from flask import request
-from flask import render_template
+from flask import Flask, request, render_template
 from db_functions import *
 import sys
 
@@ -29,4 +27,4 @@ def catalog():
 #     x = search(search_query)
 
 if __name__ == "__main__":
-	app.run(host="0.0.0.0", debug=True, port=5000) #to visit site, go to http://0.0.0.0:5000
+	app.run(debug=True) #to visit site, go to http://0.0.0.0:5000
