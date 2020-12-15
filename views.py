@@ -23,7 +23,7 @@ def catalog():
 
 # @app.route('/search')
 # def search_bar():
-#     search_query = "travis abhinav"
+#     search_query = "travis andrew"
 #     x = search(search_query)
 
 if __name__ == "__main__":
