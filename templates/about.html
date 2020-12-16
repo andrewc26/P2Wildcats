@@ -1,0 +1,43 @@
+{% extends 'nav.html' %}
+{% block about %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+
+    <body class="about-bg">
+        <h1 class="about-header">About Us</h1>
+        <center><p class="about-body">Our Dysfunctional Scrum Team</p></center>
+
+        <div class="row">
+            <div class="column">
+                <img class="face" src="../static/images/Wildcat.jpg" alt="Travis" style="width:100%">
+                <p class="face-name">Travis Medley</p>
+                <p class="face-text">Does things</p>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/Wildcat.jpg" alt="Andrew" style="width:100%">
+                <p class="face-name">Andrew Crisostomo</p>
+                <p class="face-text">Does something idk</p>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/Wildcat.jpg" alt="Anthony" style="width:100%">
+                <p class="face-name">Anthony Wilson</p>
+                <p class="face-text">Doesn't know how to code</p>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/Wildcat.jpg" alt="Nick" style="width:100%">
+                <p class="face-name">Nick Gee</p>
+                <p class="face-text">Does some stuff</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+{% endblock %}
