@@ -25,23 +25,6 @@
 
 </body>
 
-<script src="https://threejs.org/build/three.js"></script>
-<script src="{{ url_for('static', filename='vanta.trunk.min.js') }}"></script>
-<script>
-    VANTA.TRUNK({
-    el: "body",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    chaos: 3.00
-    })
-    </script>
-
-
 
 <style>
 	.fa:hover {
@@ -91,5 +74,7 @@
 	}
 </style>
 {% block about %}
+{% endblock %}
+{% block home %}
 {% endblock %}
 </html>
