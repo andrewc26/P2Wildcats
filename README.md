@@ -18,3 +18,8 @@ Project Board helps keep track of whos job it is for certian tasks in order to m
 Journals are used to keep track of what is done each week and our comments and grades for each other
 Andrew and Travis Journal Link:https://docs.google.com/document/d/1Rn2xLqRm99J29nrHp6zhihUfQyBIgqrA3u0H1DxFc5c/edit
 Anthony and Nick Journal Link:https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/edit
+
+
+
+
+hey hey hey
