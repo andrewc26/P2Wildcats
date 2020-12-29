@@ -42,13 +42,10 @@ class RegisterForm(FlaskForm):
     username = StringField('username', validators=[InputRequired(), Length(min=4, max=15)])
     password = PasswordField('password', validators=[InputRequired(), Length(min=8, max=80)])
 
-@app.route("/home", methods=['GET', 'POST'])
+@app.route("/home")
 @app.route("/")
 def home():
-    x = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
-    data = j.loads(x.content)
-    fact = data.get("text")
-    return render_template("facts.html", fact=fact)
+    return render_template("home.html")
 
 @app.route("/about")
 def about():
@@ -80,7 +77,7 @@ def signup():
         db.session.add(new_user)
         db.session.commit()
         # redirect to page when user is created
-        return render_template('usercreatedredirect.html')
+        return render_template('usercreateddirect.html')
     # return '<h1>' + form.username.data + ' ' + form.email.data + ' ' + form.password.data + '</h1>'
 
     return render_template('signup.html', form=form)
@@ -89,6 +86,11 @@ def signup():
 @login_required
 def dashboard():
     return render_template('dashboard.html', name=current_user.username)
+
+@app.route('/catalog')
+def catalog():
+    return render_template('catalog.html')
+
 
 @app.route('/logout')
 @login_required

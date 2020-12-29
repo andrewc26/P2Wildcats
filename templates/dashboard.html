@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "nav.html" %}
 
 {% block title %}
 Dashboard
@@ -7,15 +7,12 @@ Dashboard
 {% block styles %}
 <link rel="stylesheet" href="../static/css/dashboard.css">
 {% endblock %}
-{% block loginvariant %}
-<li style="float:right"><a class="navbar-right" href="{{ url_for('logout') }}">Logout</a></li>
-{% endblock %}
+
 
 {% block dashboard %}
-
+<a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
 <h1 class="welcome-text">Welcome, {{ name }}</h1>
 
-<h1 class="page-header">You have generated {{ factnum }} 100 Facts!</h1>
 
 
 
