@@ -5,12 +5,12 @@ Dashboard
 {% endblock %}
 
 {% block styles %}
-<link rel="stylesheet" href="../static/css/dashboard.css">
+<link rel="stylesheet" href="../static/styles.css">
 {% endblock %}
 
 
 {% block dashboard %}
-<a class="navbar-right" href="{{ url_for('logout') }}">Logout</a> <p style="font-family:'Courier New'">Logout</p>
+<a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
 <h1 class="welcome-text">Welcome, {{ name }}</h1>
 
 
