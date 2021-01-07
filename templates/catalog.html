@@ -1,20 +1,91 @@
 {% extends "nav.html" %}
 {% block catalog %}
-<!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wildcats</title>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Wildcatalog</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+
+<body class="home-bg">
+<center><h1 class="catalog-header">Wildcatalog</h1></center>
+<center><p class="catalog-body">The Informational Center for Various Wildcats</p></center>
+
+<head>
+    <html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildcats</title>
 <body>
+<div>
+    {% for i in cats %}
     <div>
-        {% for i in cats %}
-        <div>
-            <h1>Name: {{i[0]}}</h1>
-            <p>Description: {{i[2]}}</p>
-            <img src="{{i[1]}}" alt="wildcat image">
-        </div>
-        {% endfor %}
+        <h1>Name: {{i[0]}}</h1>
+        <p>Description: {{i[2]}}</p>
+        <img src="{{i[1]}}" alt="wildcat image">
     </div>
+    {% endfor %}
+</div>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+<h2>This page allows you to browse through and learn about different wildcats.</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<center>
+    <div class="dropdown">
+    <button class="dropbtn">Select a Wildcat</button>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+</div>
+</center>
+
 </body>
 </html>
 
