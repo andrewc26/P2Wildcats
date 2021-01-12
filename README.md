@@ -19,7 +19,8 @@
 - Account info. is stored in database.
 
 # 4 Card/Ticket Review Items
-
+Scrum Board:
+https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
