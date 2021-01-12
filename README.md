@@ -13,7 +13,7 @@
 - Open the project, and run the "views.py" file
 - Check the python terminal for a link, click the link to open the site
 
-# Loggin System
+# Login System
 - Login is not needed to navigate through website, but is required to keep track of your progress
 - Create an account with a username and password of your choice and click the box to remember the info. 
 - Account info. is stored in database
@@ -24,6 +24,7 @@
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
+Image Slideshow Background: The catalog page will have a slideshow as the background to display different images of wildcats.
 
 # Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
