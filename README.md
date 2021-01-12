@@ -9,14 +9,14 @@
 - About page contains information about everyone in the group.
 
 # How To Run 
-- Clone this repository into IntelliJ or your IDE of choice by copying the HTTPS link
-- Open the project, and run the "views.py" file
-- Check the python terminal for a link, click the link to open the site
+- Clone this repository into IntelliJ or your IDE of choice by copying the HTTPS link.
+- Open the project, and run the "views.py" file.
+- Check the python terminal for a link, click the link to open the site.
 
 # Login System
-- Login is not needed to navigate through website, but is required to keep track of your progress
+- Login is not needed to navigate through website, but is required to keep track of your progress.
 - Create an account with a username and password of your choice and click the box to remember the info. 
-- Account info. is stored in database
+- Account info. is stored in database.
 
 # 4 Card/Ticket Review Items
 
@@ -36,11 +36,13 @@ Project Board helps keep track of whos job it is for certian tasks in order to m
 https://docs.google.com/document/d/1SOJ9NIcBcs_JgxbmhQpfNp5UvPgIRAXqdzKQGvdFSLw/edit#
 
 # Journals 
-- Used to keep track of what is completed or worked on each week as well as our comments/grades for each other:
 Andrew and Travis Journal Link:
 https://docs.google.com/document/d/1Rn2xLqRm99J29nrHp6zhihUfQyBIgqrA3u0H1DxFc5c/edit
+
 Anthony and Nick Journal Link:
 https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/edit
+
+- Used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
 
 
 
