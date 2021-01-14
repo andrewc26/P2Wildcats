@@ -4,11 +4,10 @@
 Dashboard
 {% endblock %}
 <html>
-
+    <body class="dashboard-bg">
     {% block styles %}
     <link rel="stylesheet" href="../static/styles.css">
     {% endblock %}
-    <body class equals (dashboard-bg) >
 
     {% block dashboard %}
     <a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
