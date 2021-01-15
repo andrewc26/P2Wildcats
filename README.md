@@ -22,14 +22,17 @@
 
 # 4 Card/Ticket Review Items
 Scrum Board:
-- Anthony Ticket: Uploading Site to Pi - 
+- Anthony Ticket: Deployment/Uploading Site to Pi - 
 - Travis Ticket: About Page & Home Page - Look above in "How To Run" for help to find code
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/about.html
 - Nick Ticket: Dashboard progress - Look above in "How To Run" for help to find code
-- Andrew Ticket: Catalog progress - Look above in "How To Run" for help to find code
-- Anthony scrum master score:
-- Travis scrum master score: 
-- Nick scrum master score:
-- Andrew scrum master score:
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/dashboard.html
+- Andrew Ticket: Catalog progress and updating - Look above in "How To Run" for help to find code
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
+- Anthony scrum master score: 19/20
+- Travis scrum master score: 19/20
+- Nick scrum master score: 19/20
+- Andrew scrum master score: 19/20
 - SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
