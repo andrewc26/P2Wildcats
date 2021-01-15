@@ -10,6 +10,8 @@
 
 # How To Run 
 - Clone this repository into IntelliJ or your IDE of choice by copying the HTTPS link.
+- When opend, install packages > project > project structure > SDK's > packages > +
+    - Flask, flask-bootstrap, flask-wtf, wtforms, flask-sqlalchemy, werkzeug, flask-login, email validator
 - Open the project, and run the "views.py" file.
 - Check the python terminal for a link, click the link to open the site.
 
