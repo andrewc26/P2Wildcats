@@ -20,6 +20,11 @@
 
 # 4 Card/Ticket Review Items
 Scrum Board:
+Anthony ticket: Uploading Site to Pi - 
+Travis ticket: About Page & Home Page - Find code in Git and run site
+Nick Ticket: Dashboard progress - Find code in Git and run site
+Andrew Ticket: Catalog progress - Find code in Git and run site
+SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
 # Big Ticket Items 
