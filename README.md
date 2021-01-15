@@ -22,8 +22,8 @@
 
 # 4 Card/Ticket Review Items
 Scrum Board:
-- Anthony ticket: Uploading Site to Pi - 
-- Travis ticket: About Page & Home Page - Look above in "How To Run" for help to find code
+- Anthony Ticket: Uploading Site to Pi - 
+- Travis Ticket: About Page & Home Page - Look above in "How To Run" for help to find code
 - Nick Ticket: Dashboard progress - Look above in "How To Run" for help to find code
 - Andrew Ticket: Catalog progress - Look above in "How To Run" for help to find code
 - Anthony scrum master score:
@@ -38,7 +38,7 @@ Login System: This login system is a database that will store your account infor
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
 Image Slideshow Background: The catalog page will have a slideshow as the background to display different images of wildcats.
 
-# Project Board
+# Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
 
 Project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi.
