@@ -26,6 +26,10 @@ Scrum Board:
 - Travis ticket: About Page & Home Page - Look above in "How To Run" for help to find code
 - Nick Ticket: Dashboard progress - Look above in "How To Run" for help to find code
 - Andrew Ticket: Catalog progress - Look above in "How To Run" for help to find code
+- Anthony scrum master score:
+- Travis scrum master score: 
+- Nick scrum master score:
+- Andrew scrum master score:
 - SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
