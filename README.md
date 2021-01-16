@@ -22,7 +22,7 @@
 
 # 4 Card/Ticket Review Items
 Scrum Board:
-- Anthony Ticket: Deployment/Uploading Site to Pi - 
+- Anthony Ticket: Deployment/Uploading Site to Pi - http://70.95.177.55:8080/
 - Travis Ticket: About Page & Home Page - Look above in "How To Run" for help to find code
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/about.html
 - Nick Ticket: Dashboard progress - Look above in "How To Run" for help to find code
