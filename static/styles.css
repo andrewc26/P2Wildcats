@@ -137,3 +137,23 @@ li{
     background-image: src="images/backgroundboy2.png";
 }
 
+.catalog-header{
+    font-size:6.0em;
+
+}
+
+.login-bg{
+    position: relative;
+    top: 184px;
+    padding: 20px 10px 20px 10px;
+    background-color:#8C81E7;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.dashboard-words{
+    font-size:25px;
+    position: relative;
+    top: 129px;
+}
