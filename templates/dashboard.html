@@ -1,18 +1,20 @@
+{% extends "nav.html" %}
 
-{% extends 'nav.html' %}
-{% block dashboard %}
-<!DOCTYPE html>
-<html lang="en">
-
-
+{% block title %}
+Dashboard
+{% endblock %}
 <html>
-<link rel="stylesheet" href="../static/styles.css">
-<body class="home-bg">
+    <body class="dashboard-bg">
+    {% block styles %}
+    <link rel="stylesheet" href="../static/styles.css">
+    {% endblock %}
 
-<a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
-<h1 class="welcome-text">Welcome, {{ name }}</h1>
+    {% block dashboard %}
+    <a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
+    <h1 class="welcome-text">Welcome, {{ name }}</h1>
 
-</body>
+
+
+    </body>
 </html>
-
 {% endblock %}
