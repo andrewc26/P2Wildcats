@@ -10,6 +10,8 @@
 
 # How To Run 
 - Clone this repository into IntelliJ or your IDE of choice by copying the HTTPS link.
+- When opend, install packages > project > project structure > SDK's > packages > +
+    - Flask, flask-bootstrap, flask-wtf, wtforms, flask-sqlalchemy, werkzeug, flask-login, email validator
 - Open the project, and run the "views.py" file.
 - Check the python terminal for a link, click the link to open the site.
 
@@ -20,6 +22,18 @@
 
 # 4 Card/Ticket Review Items
 Scrum Board:
+- Anthony Ticket: Deployment/Uploading Site to Pi - http://70.95.177.55:8080/
+- Travis Ticket: About Page & Home Page - Look above in "How To Run" for help to find code
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/about.html
+- Nick Ticket: Dashboard progress - Look above in "How To Run" for help to find code
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/dashboard.html
+- Andrew Ticket: Catalog progress and updating - Look above in "How To Run" for help to find code
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
+- Anthony scrum master score: 19/20
+- Travis scrum master score: 19/20
+- Nick scrum master score: 19/20
+- Andrew scrum master score: 19/20
+- SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
 # Big Ticket Items 
@@ -27,7 +41,7 @@ Login System: This login system is a database that will store your account infor
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
 Image Slideshow Background: The catalog page will have a slideshow as the background to display different images of wildcats.
 
-# Project Board
+# Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
 
 Project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi.
@@ -45,6 +59,6 @@ https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/
 
 - Used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
 
-
+hey hey hey
 
 
