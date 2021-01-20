@@ -1,7 +1,7 @@
 # P2Wildcats
 
 # Project Overview
- Our idea is a website that teaches you about animals, specifically wildcats, and their habitat and lifestyle. 
+Our idea is a website that teaches you about animals, specifically wildcats, and their habitat and lifestyle. 
 - We were inspired by this idea because of our group name given on the first day of the trimester by Mr. Mortensen!
 - We have created multiple pages for the project. These pages are accessible through the menu on the top of the site.
 - Home page contains links for project plan and journal.
@@ -13,7 +13,7 @@
 - When opend, install packages > project > project structure > SDK's > packages > +
     - Flask, flask-bootstrap, flask-wtf, wtforms, flask-sqlalchemy, werkzeug, flask-login, email validator
 - Open the project, and run the "views.py" file.
-- Check the python terminal for a link, click the link to open the site.
+- A link should appear at the bottom of 'python terminal', click the link to receive access to site.
 
 # Login System
 - Login is not needed to navigate through website, but is required to keep track of your progress.
@@ -39,13 +39,13 @@ https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
-Image Slideshow Background: The catalog page will have a slideshow as the background to display different images of wildcats.
+Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database. The catalog page will also provide information on the animal in your image.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
 
 Project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi.
-Project Board helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting job done on deadline.
+Project Board helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting the job done by the deadline.
 
 # Project Plan
 https://docs.google.com/document/d/1SOJ9NIcBcs_JgxbmhQpfNp5UvPgIRAXqdzKQGvdFSLw/edit#
@@ -58,7 +58,5 @@ Anthony and Nick Journal Link:
 https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/edit
 
 - Used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
-
-hey hey hey
 
 
