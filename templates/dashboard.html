@@ -13,8 +13,19 @@ Dashboard
     <a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
     <h1 class="welcome-text">Welcome, {{ name }}</h1>
 
+<<<<<<< HEAD
 
 
     </body>
+=======
+<html>
+<link rel="stylesheet" href="../static/styles.css">
+<body>
+<center><div class="dashboard-words">
+    <h1 style="font-size:80px;">Welcome, {{ name }}</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div></center>
+</body>
+>>>>>>> origin/main
 </html>
 {% endblock %}
