@@ -1,23 +1,5 @@
 {% extends "nav.html" %}
-
-{% block title %}
-Dashboard
-{% endblock %}
-<html>
-    <body class="dashboard-bg">
-    {% block styles %}
-    <link rel="stylesheet" href="../static/styles.css">
-    {% endblock %}
-
-    {% block dashboard %}
-    <a class="navbar-right" href="{{ url_for('logout') }}">Logout</a>
-    <h1 class="welcome-text">Welcome, {{ name }}</h1>
-
-<<<<<<< HEAD
-
-
-    </body>
-=======
+{% block dashboard %}
 <html>
 <link rel="stylesheet" href="../static/styles.css">
 <body>
@@ -26,6 +8,5 @@ Dashboard
     <a href="{{ url_for('logout') }}">Logout</a>
 </div></center>
 </body>
->>>>>>> origin/main
 </html>
 {% endblock %}
