@@ -13,7 +13,7 @@
 - When opend, install packages > project > project structure > SDK's > packages > +
     - Flask, flask-bootstrap, flask-wtf, wtforms, flask-sqlalchemy, werkzeug, flask-login, email validator
 - Open the project, and run the "views.py" file.
-- Check the python terminal for a link, click the link to open the site.
+- A link should appear at the bottom of 'python terminal', click the link to receive access to site.
 
 # Login System
 - Login is not needed to navigate through website, but is required to keep track of your progress.
@@ -45,7 +45,7 @@ Image Slideshow Background: The catalog page will have a slideshow as the backgr
 https://github.com/andrewc26/P2Wildcats/projects/1
 
 Project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi.
-Project Board helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting job done on deadline.
+Project Board helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting the job done by the deadline.
 
 # Project Plan
 https://docs.google.com/document/d/1SOJ9NIcBcs_JgxbmhQpfNp5UvPgIRAXqdzKQGvdFSLw/edit#
