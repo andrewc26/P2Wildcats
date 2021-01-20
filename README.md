@@ -39,7 +39,7 @@ https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
-Wildcat Image Game: The catalog page will have a game where you click the button to randomize an image and if the image is a wildcat you win. The catalog page will also provide information on the animal in your image.
+Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database. The catalog page will also provide information on the animal in your image.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
