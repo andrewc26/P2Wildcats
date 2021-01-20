@@ -87,9 +87,14 @@ def signup():
 def dashboard():
     return render_template('dashboard.html', name=current_user.username)
 
-@app.route('/catalog')
+@app.route('/catalog', methods=['GET'])
 def catalog():
-    return render_template('catalog.html')
+    key = "74d08475-b079-4763-b6d3-76355fef1a74"
+    x = r.get(f"https://api.thecatapi.com/v1/images/search?{key}") #Fetch rest api data
+    data = j.loads(x.content) #Fetch rest api data
+    cat = data[0].get("url") #Fetch rest api data
+    return render_template("catalog.html", cat=cat) #Fetch rest api data
+
 
 
 @app.route('/logout')
