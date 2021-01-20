@@ -1,7 +1,7 @@
 # P2Wildcats
 
 # Project Overview
- Our idea is a website that teaches you about animals, specifically wildcats, and their habitat and lifestyle. 
+Our idea is a website that teaches you about animals, specifically wildcats, and their habitat and lifestyle. 
 - We were inspired by this idea because of our group name given on the first day of the trimester by Mr. Mortensen!
 - We have created multiple pages for the project. These pages are accessible through the menu on the top of the site.
 - Home page contains links for project plan and journal.
@@ -40,6 +40,7 @@ https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
 Image Slideshow Background: The catalog page will have a slideshow as the background to display different images of wildcats.
+Database for a wildcat game where you click a button and it randomizes an image and if you get a wildcat image you win.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
