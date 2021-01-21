@@ -7,6 +7,7 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 - Home page contains links for project plan and journal.
 - Catalog page contains information and a button that randomizes pictures of animals and the goal is to get a wildcat image.
 - About page contains information about everyone in the group.
+- Added a login system to keep track of everybody's account and will guide you through the catalog and help create your wildcat.
 
 # Applications/Installations Needed and How to Create Code and Publish it
 - Install IntelliJ IDEA [Download](https://www.jetbrains.com/idea/)
