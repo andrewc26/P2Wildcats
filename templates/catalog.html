@@ -20,15 +20,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildcats</title>
 <body>
-<div>
-    {% for i in cats %}
-    <div>
-        <h1>Name: {{i[0]}}</h1>
-        <p>Description: {{i[2]}}</p>
-        <img src="{{i[1]}}" alt="wildcat image">
-    </div>
-    {% endfor %}
-</div>
 
 <html>
 <head>
@@ -41,27 +32,6 @@
   font-size: 16px;
   border: none;
   border-radius:9%;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -78,12 +48,6 @@
 
 <center>
     <div class="dropdown">
-        <button class="dropbtn">Get a Cat!</button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
     <button onClick="window.location.reload();" class="dropbtn">Get a Cat!</button>
 </div>
 </center>
