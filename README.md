@@ -31,7 +31,7 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
-
+Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database. The catalog page will also provide information on the animal in your image.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
@@ -62,7 +62,7 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/dashboard.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
 - Anthony scrum master score: 19/20
 - Travis scrum master score: 19/20
-- Nick scrum master score: 19/20
+- Nick scrum master score: 17/20
 - Andrew scrum master score: 19/20
 - SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
