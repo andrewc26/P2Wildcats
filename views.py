@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 from db_functions import *
+from view import app
 import sys
 
 #views from the top
@@ -28,3 +29,4 @@ def catalog():
 
 if __name__ == "__main__":
 	app.run(debug=True) #to visit site, go to http://0.0.0.0:5000
+
