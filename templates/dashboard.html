@@ -1,0 +1,12 @@
+{% extends "nav.html" %}
+{% block dashboard %}
+<html>
+<link rel="stylesheet" href="../static/styles.css">
+<body>
+<center><div class="dashboard-words">
+    <h1 style="font-size:80px;">Welcome, {{ name }}</h1>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div></center>
+</body>
+</html>
+{% endblock %}

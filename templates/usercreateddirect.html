@@ -1,0 +1,13 @@
+{% extends 'nav.html' %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="../static/css/redirectforms.css">
+{% endblock %}
+{% block meta %}
+<meta http-equiv = "refresh" content = "3; url = /login" />
+{% endblock %}
+{% block content %}
+<h1 class="invalid-header">User successfully created!</h1>
+<p class="loading invalid-redirect">Redirecting to login form</p>
+
+{% endblock %}

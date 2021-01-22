@@ -1,19 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "nav.html" %}
+{% block catalog %}
+<html>
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Wildcatalog</title>
+    <link rel="stylesheet" href="../static/styles.css" type="text/css">
+</head>
+
+<body class="home-bg">
+<center><h1 class="catalog-header">Wildcatalog</h1></center>
+<center><p class="catalog-body">The Center for Random Cat Pictures</p></center>
+
+<head>
+    <html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildcats</title>
+<body>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+.dropbtn {
+  background-color: #958AE6;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius:9%;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #958AE7;}
+</style>
 </head>
 <body>
-    <div>
-        {% for i in cats %}
-        <div>
-            <h1>Name: {{i[0]}}</h1>
-            <p>Description: {{i[2]}}</p>
-            <img src="{{i[1]}}" alt="wildcat image">
-        </div>
-        {% endfor %}
-    </div>
+
+
+<center><h2>Press the Button and get a Cool Cat Picture!</h2></body></center>
+<center><p>Will you get a Picture of a Wildcat? 1/300 chance!</p></center>
+
+
+
+<center>
+    <div class="dropdown">
+    <button onClick="window.location.reload();" class="dropbtn">Get a Cat!</button>
+</div>
+</center>
+<div>
+    <center><img class="picture" src="{{cat}}" alt="{{cat}}" width="345px" height="275px"></center>
+</div>
+
 </body>
 </html>
+
+{% endblock %}
