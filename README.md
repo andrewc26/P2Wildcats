@@ -5,9 +5,9 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 - We were inspired by this idea because of our group name given on the first day of the trimester by Mr. Mortensen!
 - We have created multiple pages for the project. These pages are accessible through the menu on the top of the site.
 - Home page contains links for project plan and journal.
-- Catalog page contains information and a button that randomizes pictures of animals and the goal is to get a wildcat image.
+- Catalog page contains information and a button that randomizes pictures of cats.
 - About page contains information about everyone in the group.
-- Added a login system to keep track of everybody's account and will guide you through the catalog and help create your wildcat.
+- Added a login system to keep track of everybody's account and will guide you through the website.
 
 # Applications/Installations Needed and How to Create Code and Publish it
 - Install IntelliJ IDEA [Download](https://www.jetbrains.com/idea/)
@@ -32,7 +32,7 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
-Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database. The catalog page will also provide information on the animal in your image.
+Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database including some info. 
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
