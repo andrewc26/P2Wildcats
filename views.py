@@ -51,6 +51,10 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route("/easter")
+def easter():
+    return render_template("easter.html")
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
@@ -105,3 +109,4 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
