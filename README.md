@@ -29,7 +29,7 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 - Create an account with a username and password of your choice and click the box to remember the info. 
 - Account info. is stored in database.
 
-#Easter Egg 
+# Easter Egg 
 The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
