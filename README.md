@@ -31,9 +31,9 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 
 # Easter Egg 
 The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-http://127.0.0.1:5000/easter
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- http://127.0.0.1:5000/easter
 
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
