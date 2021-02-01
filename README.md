@@ -29,12 +29,6 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 - Create an account with a username and password of your choice and click the box to remember the info. 
 - Account info. is stored in database.
 
-# Easter Egg 
-The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-- http://127.0.0.1:5000/easter
-
 # Big Ticket Items 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
@@ -57,6 +51,12 @@ Anthony and Nick Journal Link:
 https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/edit
 
 - Used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
+
+# Easter Egg 
+The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- http://127.0.0.1:5000/easter
 
 # 4 Card/Ticket Review Items
 Scrum Board:
