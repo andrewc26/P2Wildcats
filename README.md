@@ -77,6 +77,6 @@ https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
 # 2nd Tri Easter Egg and Tickets
 - Nick Ticket: Work on persistent data and log in system
-- Travis Ticket: Easter egg creation and website progress
-- Andrew Ticket: New website page and nav bar for Easter Egg with embedded links to wildcat quizzes and curating data involvement through metadata in project
-- Anthony Ticket: Animal research 
+- Travis Ticket: Easter egg creation 
+- Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata 
+- Anthony Ticket: Curating data  
