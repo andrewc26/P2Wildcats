@@ -77,7 +77,7 @@ The easter egg in our project is a secret link that takes you to a hidden page o
 
 # Tickets and Easter Egg Completion
 https://github.com/andrewc26/P2Wildcats/projects/1
-- Nick Ticket: Work on persistent data and fix log in system 
+- Nick Ticket: Work on improving persistent data and fix log in system 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 - Travis Ticket: Easter egg creation and Easter egg page progress
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
