@@ -53,12 +53,6 @@ https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/
 
 The journals are used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
 
-# Easter Egg 
-The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-- http://127.0.0.1:5000/easter
-
 # 4 Card/Ticket Review Items
 Scrum Board:
 - Anthony Ticket: Deployment/Uploading Site to Pi - http://70.95.177.55:8080/
@@ -75,6 +69,11 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
 - SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
+# Easter Egg 
+The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- http://127.0.0.1:5000/easter
 
 # Tickets and Easter Egg Completion
 - Nick Ticket: Work on persistent data and fix log in system 
