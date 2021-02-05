@@ -37,11 +37,12 @@ Wildcat Randomization Database: The catalog page will have a randomizer where yo
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
 
-Project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi.
-Project Board helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting the job done by the deadline.
+The project Board keeps log of what is in progress, what has been asigned, and what has been completed and ready to push to github or onto rasberry pi. 
+It helps keep track of whos job it is for certian tasks in order to make sure all group is working and getting the job done by the deadline.
 
 # Project Plan
 https://docs.google.com/document/d/1SOJ9NIcBcs_JgxbmhQpfNp5UvPgIRAXqdzKQGvdFSLw/edit#
+The project plan is where our group brainstorms and plans out ideas to improve or add to our project.
 
 # Journals 
 Andrew and Travis Journal Link:
@@ -50,7 +51,7 @@ https://docs.google.com/document/d/1Rn2xLqRm99J29nrHp6zhihUfQyBIgqrA3u0H1DxFc5c/
 Anthony and Nick Journal Link:
 https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/edit
 
-- Used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
+The journals are used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
 
 # Easter Egg 
 The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
@@ -75,8 +76,8 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
 
 
-# 2nd Tri Easter Egg and Tickets
+# Tickets and Easter Egg Completion
 - Nick Ticket: Work on persistent data and fix log in system 
 - Travis Ticket: Easter egg creation and Easter egg page progress
-- Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata 
-- Anthony Ticket: helped fix log in system with Nick and added style to Easter egg page 
+- Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata through api
+- Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
