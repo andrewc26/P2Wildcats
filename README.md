@@ -76,7 +76,7 @@ The easter egg in our project is a secret link that takes you to a hidden page o
 - http://127.0.0.1:5000/easter
 
 # Tickets and Easter Egg Completion
-Links to Tickets: https://github.com/andrewc26/P2Wildcats/projects/1
+Link to Tickets on Scrumboard: https://github.com/andrewc26/P2Wildcats/projects/1
 - Nick Ticket: Work on improving persistent data and fix log in system 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 - Travis Ticket: Easter egg creation and Easter egg page progress
