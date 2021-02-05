@@ -76,7 +76,16 @@ The easter egg in our project is a secret link that takes you to a hidden page o
 - http://127.0.0.1:5000/easter
 
 # Tickets and Easter Egg Completion
+https://github.com/andrewc26/P2Wildcats/projects/1
 - Nick Ticket: Work on persistent data and fix log in system 
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 - Travis Ticket: Easter egg creation and Easter egg page progress
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata through api
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
