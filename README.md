@@ -89,3 +89,7 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+
+
+# Suggestions from Crossover week
+Beavers: Add I statements to Easter egg page
