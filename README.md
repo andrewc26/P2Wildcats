@@ -93,5 +93,5 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 
 # Review via README Guidance
 https://github.com/andrewc26/P2Wildcats/projects/1
-Suggestion(s) from Beavers: Add I statements to Easter egg page
-College Board: Add lists to About Us and/or Easter egg page
+- Suggestion(s) from Beavers: Add I statements to Easter egg page
+- College Board: Add lists to About Us and/or Easter egg page
