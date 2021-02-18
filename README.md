@@ -5,6 +5,11 @@ Project Site: http://127.0.0.1:5000/easter
 Tickets: https://github.com/andrewc26/P2Wildcats/projects/1
 - Suggestion(s) from Beavers: Add I statements to Easter egg page (click title on home page)
 - College Board: Add lists to About Us page
+- Us lists for I statements(in progress)
+- Tickets for this week and next: 
+-   Andrew and Travis: add lists to about page and collect all I statements from team
+-   Nick: continue fixing loggin system(very close)
+-   Anthony: Research more college board ideas to put in website
 
 # Project Overview
 Our idea is a website that teaches you about animals, specifically wildcats and their lifestyle with cool facts. 
@@ -95,3 +100,5 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+
+
