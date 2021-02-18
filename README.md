@@ -1,5 +1,11 @@
 # P2Wildcats
 
+# Week 2/16-2/18 Review via README Guidance
+Project Site: http://127.0.0.1:5000/easter
+Tickets: https://github.com/andrewc26/P2Wildcats/projects/1
+- Suggestion(s) from Beavers: Add I statements to Easter egg page (click title on home page)
+- College Board: Add lists to About Us page
+
 # Project Overview
 Our idea is a website that teaches you about animals, specifically wildcats and their lifestyle with cool facts. 
 - We were inspired by this idea because of our group name given on the first day of the trimester by Mr. Mortensen!
@@ -89,9 +95,3 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-
-
-# Review via README Guidance
-https://github.com/andrewc26/P2Wildcats/projects/1
-- Suggestion(s) from Beavers: Add I statements to Easter egg page
-- College Board: Add lists to About Us and/or Easter egg page
