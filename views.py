@@ -55,6 +55,10 @@ def about():
 def easter():
     return render_template("easter.html")
 
+@app.route("/weeklycat")
+def weeklycat():
+    return render_template("weeklycat.html")
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
