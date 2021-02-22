@@ -95,3 +95,6 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 - Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+
+Ticket of the week 2/22:
+Add "Wildcat of the week!": Every week the website is program to display an image of a wildcat that gives information about its species, habitat, and its daily activities. 
