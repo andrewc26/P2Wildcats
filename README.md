@@ -96,5 +96,5 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 
-Ticket of the week 2/22:
-Add "Wildcat of the week!": Every week the website is program to display an image of a wildcat that gives information about its species, habitat, and its daily activities. 
+Progess/Ticket of the Week 2/22 - 2/26:
+"Wildcat of the week!": Every week the website is programmed to display an image of a wildcat that gives information about its the animal itself, habitat, and its daily activities. This page is created to imitate the displayment of Instagram with a few changes to it. 
