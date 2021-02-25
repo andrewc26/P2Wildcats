@@ -1,0 +1,189 @@
+{% extends "nav.html" %}
+{% block catvoting %}
+<html>
+<head>
+    <script>
+function getVote(int) {
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<div id="poll">
+    <h3>Is the lion the king of the cats?</h3>
+    <form>
+        Yes: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+        No: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+    </form>
+    <h3>Is the panther the king of the cats?</h3>
+    <form>
+        Yes: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+        No: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+    </form>
+    <h3>Is the tiger the king of the cats?</h3>
+    <form>
+        Yes: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+        No: <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+    </form>
+</div>
+
+</body>
+</html>
+
+<?php
+$vote = $_REQUEST['vote'];
+
+//get content of textfile
+$filename = "poll_result.txt";
+$content = file($filename);
+
+//put content in array
+$array = explode("||", $content[0]);
+$yes = $array[0];
+$no = $array[1];
+
+if ($vote == 0) {
+  $yes = $yes + 1;
+}
+if ($vote == 1) {
+  $no = $no + 1;
+}
+
+//insert votes to txt file
+$insertvote = $yes."||".$no;
+$fp = fopen($filename,"w");
+fputs($fp,$insertvote);
+fclose($fp);
+?>
+
+<h2>Result:</h2>
+<table>
+    <tr>
+        <td>Yes:</td>
+        <td><img src="poll.gif"
+                 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
+                 height='20'>
+            <?php echo(100*round($yes/($no+$yes),2)); ?>%
+        </td>
+    </tr>
+    <tr>
+        <td>No:</td>
+        <td><img src="poll.gif"
+                 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
+                 height='20'>
+            <?php echo(100*round($no/($no+$yes),2)); ?>%
+        </td>
+    </tr>
+</table>
+
+{% block styles %}
+<!-- styles would go in here -->
+<style type="text/css">
+            .tabs{
+                margin: 0 auto;
+                }
+
+            #tab-list{
+                padding-bottom: 1rem;
+            }
+
+            .tab{
+                border-radius: 40px;
+                display: inline-block;
+                text-decoration: none;
+                padding: .5rem 1rem;
+                color: white;
+                background: navy;
+                margin: .5em .5em 1em;
+                letter-spacing: 1.5px;
+            }
+
+
+            .tab.active{
+                background-color: cornflowerblue;
+            }
+
+            .tab-content{
+                display: none;
+            }
+
+            .show{
+                display: block;
+            }
+
+    </style>
+{% endblock %}
+
+{% block body %}
+<h1>Top Cat</h1>
+<div class="tabs">
+    {% if username != '' %}
+    <p>Was your favorite wildcat the most voted? Check the leaderboard below!</p>
+
+    <nav id="tab-list">
+        <a class="tab button active" href="#tab-one">Winning Wildcat</a>
+        <a class="tab button" href="#tab-two">{{username}}'s Scores</a>
+    </nav>
+    {% endif %}
+    <div id="tab-one" class="tab-content show">
+        <table class="score">
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            {% for score in scores  %}
+            <tr>
+                <td>{{score.name}}</td>
+                <td>{{score.score}}</td>
+            </tr>
+            {%  endfor %}
+        </table>
+    </div>
+    {% if username != '' %}
+    <div id="tab-two" class="tab-content">
+        <table class="score">
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            {% for nameScore in nameScores  %}
+            <tr>
+                <td>{{nameScore.name}}</td>
+                <td>{{nameScore.score}}</td>
+            </tr>
+            {%  endfor %}
+        </table>
+    </div>
+
+    {% endif %}
+</div>
+
+{% endblock %}
+
+{% block script %}
+{% if username != '' %}
+<script type="text/javascript">
+    $('#tab-list').on('click', '.tab', function(e){
+        //e captures the event object
+        console.log(e);
+
+        e.preventDefault(); //don't do the default behavior
+        $('.tab').removeClass('active');
+        $('.tab-content').removeClass('show');
+        $(this).addClass('active');
+        $($(this).attr('href')).addClass('show');
+
+    })
+</script>
+{% endif %}
+{% endblock %}
+</html>
+{% endblock %}

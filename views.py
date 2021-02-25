@@ -59,6 +59,10 @@ def easter():
 def weeklycat():
     return render_template("weeklycat.html")
 
+@app.route("/catvoting")
+def catvoting():
+    return render_template("catvoting.html")
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
