@@ -167,3 +167,19 @@ li{
 .dropdown{
     border-radius:12%
 }
+
+.weeklycat-body{
+    font-size:50px;
+}
+
+.easter-body{
+    font-size:20px;
+}
+
+.statements{
+   margin-left:20%;
+   margin-right:20%;
+   background-color:white;
+   border-radius:30px;
+   opacity:90%;
+}
