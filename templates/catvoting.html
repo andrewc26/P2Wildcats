@@ -1,5 +1,9 @@
 {% extends "nav.html" %}
 {% block catvoting %}
+<body class="home-bg">
+<center><h1 class="catvoting-header">King of the Cats</h1></center>
+<center><p class="catvoting-body">Choose wisely. You can only vote once.</p></center>
+
 <html>
 <head>
     <script>
@@ -65,24 +69,6 @@ fclose($fp);
 ?>
 
 <h2>Result:</h2>
-<table>
-    <tr>
-        <td>Yes:</td>
-        <td><img src="poll.gif"
-                 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
-                 height='20'>
-            <?php echo(100*round($yes/($no+$yes),2)); ?>%
-        </td>
-    </tr>
-    <tr>
-        <td>No:</td>
-        <td><img src="poll.gif"
-                 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
-                 height='20'>
-            <?php echo(100*round($no/($no+$yes),2)); ?>%
-        </td>
-    </tr>
-</table>
 
 {% block styles %}
 <!-- styles would go in here -->
@@ -129,8 +115,10 @@ fclose($fp);
     <p>Was your favorite wildcat the most voted? Check the leaderboard below!</p>
 
     <nav id="tab-list">
-        <a class="tab button active" href="#tab-one">Winning Wildcat</a>
-        <a class="tab button" href="#tab-two">{{username}}'s Scores</a>
+        <a class="tab button active" href="#tab-one">Wildboard</a>
+        <a class="tab button" href="#tab-two">Lion: 50%</a>
+        <a class="tab button" href="#tab-three">Panther: 25%</a>
+        <a class="tab button" href="#tab-four">Tiger: 25%</a>
     </nav>
     {% endif %}
     <div id="tab-one" class="tab-content show">
