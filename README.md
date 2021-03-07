@@ -5,7 +5,7 @@ Through research, tech talks, and colllege board requirements our group was able
 Collegeboard Requirements (https://apcentral.collegeboard.org/pdf/digital-portfolio-student-user-guide-ap-csp.pdf)
 - Major Technicals:
 - Deployment by Anthony W. 
-    - Procedures by ANthony W.
+    - Procedures by Anthony W.
     - Tech Talks (https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/the-linux-commands-handbook/amp/) and (https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment) and (https://drive.google.com/file/d/1yYb9al2HrXVc32_izZAu969sTe87cghh/view)
 - Navigation Bar by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/nav.html)
 - Home Page by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/home.html)
@@ -81,6 +81,26 @@ https://docs.google.com/document/d/1H_rkU8QGBcCwCwj6Ia5sylhfVicfE1cv6_J8-KukuZM/
 
 The journals are used to keep track of what is completed or worked on each week as well as our comments/grades for each other.
 
+# Easter Egg 
+The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- http://127.0.0.1:5000/easter
+# Tickets and Easter Egg Completion
+Link to Tickets on Scrumboard: https://github.com/andrewc26/P2Wildcats/projects/1
+- Nick Ticket: Work on improving persistent data and fix log in system 
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
+- Travis Ticket: Easter egg creation and Easter egg page progress
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata through api
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+- Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
+https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
+
 # 4 Card/Ticket Review Items
 Scrum Board:
 - Anthony Ticket: Deployment/Uploading Site to Pi - http://70.95.177.55:8080/
@@ -96,27 +116,6 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
 - Andrew scrum master score: 19/20
 - SCRUM BOARD:
 https://github.com/andrewc26/P2Wildcats/projects/1?fullscreen=true
-
-# Easter Egg 
-The easter egg in our project is a secret link that takes you to a hidden page on our website. On that page we have embedded links to different websites where you can take quizzes to see what wildcat you are most like.
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-- https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-- http://127.0.0.1:5000/easter
-
-# Tickets and Easter Egg Completion
-Link to Tickets on Scrumboard: https://github.com/andrewc26/P2Wildcats/projects/1
-- Nick Ticket: Work on improving persistent data and fix log in system 
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
-- Travis Ticket: Easter egg creation and Easter egg page progress
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-- Andrew Ticket: Nav bar for Easter Egg with embedded links to wildcat quizzes and metadata through api
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
-- Anthony Ticket: helped fix log in system and layout/style of the Easter egg page 
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
-https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 
 # Progess/Ticket of the Week 2/22 - 2/26:
 "Wildcat of the week!": Every week the website is programmed to display an image of a wildcat that gives information about its the animal itself, habitat, and its daily activities. This page is created to imitate the displayment of Instagram with a few changes to it.
