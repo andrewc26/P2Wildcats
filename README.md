@@ -3,7 +3,7 @@
 # N@TM README Requirements
 Through research, tech talks, and colllege board requirements our group was able to create and innovate ideas for our project. We modeled code and ideas from tech talks by Mr. Mortensen and other students and found various code sources online to help us complete tasks.
 Collegeboard Requirements (https://apcentral.collegeboard.org/pdf/digital-portfolio-student-user-guide-ap-csp.pdf)
-Major Technicals:
+- Major Technicals:
 - Deployment by Anthony W. 
     - Procedures by ANthony W.
     - Tech Talks (https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/the-linux-commands-handbook/amp/) and (https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment) and (https://drive.google.com/file/d/1yYb9al2HrXVc32_izZAu969sTe87cghh/view)
