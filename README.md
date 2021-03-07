@@ -1,10 +1,32 @@
 # P2Wildcats
 
-# Week 2/16-2/18 Review via README Guidance
-Project Site: http://70.95.177.55:8080/
-Tickets: https://github.com/andrewc26/P2Wildcats/projects/1
-- Suggestion(s) from Beavers: Add I statements to Easter egg page (click title on home page)
-- College Board: Add lists to About Us page
+# N@TM README Requirements
+Through research, tech talks, and colllege board requirements our group was able to create and innovate ideas for our project. We modeled code and ideas from tech talks by Mr. Mortensen and other students and found various code sources online to help us complete tasks.
+Collegeboard Requirements (https://apcentral.collegeboard.org/pdf/digital-portfolio-student-user-guide-ap-csp.pdf)
+Major Technicals:
+- Deployment by Anthony W. 
+    - Procedures by ANthony W.
+    - Tech Talks (https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/the-linux-commands-handbook/amp/) and (https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment) and (https://drive.google.com/file/d/1yYb9al2HrXVc32_izZAu969sTe87cghh/view)
+- Navigation Bar by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/nav.html)
+- Home Page by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/home.html)
+- Wildcatalog Page by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html)
+    - Algorithms by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/views.py)
+    - Outputs by Travis M. and Anthony W. (https://github.com/andrewc26/P2Wildcats/blob/main/views.py)
+    - Tech Talk (https://github.com/nighthawkcoders/flask-idea-homesite/tree/master/models) and (https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+- About Page by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/about.html) 
+    - Lists by Andrew C. (https://www.w3schools.com/html/html_lists_unordered.asp)
+- Wildcat of the Week by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/weeklycat.html)
+- King of the Cats Page/Leaderboard by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/catvoting.html)
+    - Leaderboard by Andrew C. (https://github.com/TrishZwei/python-leaderboard)
+    - Voting Poll by Andrew C. (https://www.w3schools.com/php/php_ajax_poll.asp)
+- Dashboard Page by Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/dashboard.html)
+- Login System by Travis M. and Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html)
+    - Inputs by Travis M. and Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/signup.html)
+    - Tech Talk (https://flask-login.readthedocs.io/en/latest/) and (https://docs.google.com/document/d/1F6iYBj5xJ8ZWCtkDqlF_-skWM-Xuut-BqT5eRNPhnOE/edit)
+- Easter Egg by Travis M. and Anthony W. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html)
+- Easter Navigation Bar by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html)
+- Databases by Travis M. and Andrew C. 
+    - Tech Talk(http://nighthawkcoders.cf/pythondb/#FE-HTML) and (http://nighthawkcoders.cf/pythondb/#BE-VIEW)
 
 # Project Overview
 Our idea is a website that teaches you about animals, specifically wildcats and their lifestyle with cool facts. 
@@ -96,5 +118,10 @@ https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html
 https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html
 
-Progess/Ticket of the Week 2/22 - 2/26:
-"Wildcat of the week!": Every week the website is programmed to display an image of a wildcat that gives information about its the animal itself, habitat, and its daily activities. This page is created to imitate the displayment of Instagram with a few changes to it. 
+# Progess/Ticket of the Week 2/22 - 2/26:
+"Wildcat of the week!": Every week the website is programmed to display an image of a wildcat that gives information about its the animal itself, habitat, and its daily activities. This page is created to imitate the displayment of Instagram with a few changes to it.
+# Week 2/16-2/18 Review via README Guidance
+Project Site: http://70.95.177.55:8080/
+Tickets: https://github.com/andrewc26/P2Wildcats/projects/1
+- Suggestion(s) from Beavers: Add I statements to Easter egg page (click title on home page)
+- College Board: Add lists to About Us page
