@@ -68,10 +68,10 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 - Account info. is stored in database.
 
 # Big Ticket Items 
-Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
-Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
-Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database including some info. 
-Wilcat Leaderboard: This feature will allow you to vote on your favorite cat and the percentages/number of voters for each cat are displayed.
+- Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
+- Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
+- Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database including some info. 
+- Wilcat Leaderboard: This feature will allow you to vote on your favorite cat and the percentages/number of voters for each cat are displayed.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
