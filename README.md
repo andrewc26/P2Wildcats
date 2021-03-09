@@ -7,26 +7,36 @@ Collegeboard Requirements (https://apcentral.collegeboard.org/pdf/digital-portfo
 - Deployment by Anthony W. 
     - Procedures by Anthony W.
     - Tech Talks (https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/the-linux-commands-handbook/amp/) and (https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment) and (https://drive.google.com/file/d/1yYb9al2HrXVc32_izZAu969sTe87cghh/view)
+Through the use of virtual box, we were able to get a unique deplyment system up and running.
 - Navigation Bar by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/nav.html)
+Our group was successfully able to integrate the home page as well as adding a navbar using Bootstrap that contains different tabs of possible items; currently ready to deploy on Raspberry Pi in Scrum Board. It can be evaluated via runtime by running the project and checking if the navbar does lead to the different tabs on our website.
 - Home Page by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/home.html)
 - Wildcatalog Page by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/catalog.html)
     - Algorithms by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/views.py)
     - Outputs by Travis M. and Anthony W. (https://github.com/andrewc26/P2Wildcats/blob/main/views.py)
     - Tech Talk (https://github.com/nighthawkcoders/flask-idea-homesite/tree/master/models) and (https://flask.palletsprojects.com/en/1.1.x/quickstart/)
+This is one of our main databases which holds different cat images which can be randomly displayed with the click of a button. 
 - About Page by Travis M. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/about.html) 
     - Lists by Andrew C. (https://www.w3schools.com/html/html_lists_unordered.asp)
+This page displays all of the creators and contains a list of some random facts about each of us. 
 - Wildcat of the Week by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/weeklycat.html)
+With this feature, a new cat is displayed every week at random with some cool facts about them to add a variety to the project.
 - King of the Cats Page/Leaderboard by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/catvoting.html)
     - Leaderboard by Andrew C. (https://github.com/TrishZwei/python-leaderboard)
     - Voting Poll by Andrew C. (https://www.w3schools.com/php/php_ajax_poll.asp)
+A leaderboard page in which you can vote for which cat you think is the best. It displays percentages and holds number of votes. 
 - Dashboard Page by Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/dashboard.html)
+This feature was created for when a user logs in. It confirms the account and allows the user to browse through the website and keeps all of their information and progress.
 - Login System by Travis M. and Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/login.html)
     - Inputs by Travis M. and Nick G. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/signup.html)
     - Tech Talk (https://flask-login.readthedocs.io/en/latest/) and (https://docs.google.com/document/d/1F6iYBj5xJ8ZWCtkDqlF_-skWM-Xuut-BqT5eRNPhnOE/edit)
+By logging in, users can retain their information because of the database which holds user information. They must be logged in to hold the information.
 - Easter Egg by Travis M. and Anthony W. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/easter.html)
+To find the easter egg, click the word "Wildcats" on the home page and you will be brought to a new page with secret features.
 - Easter Navigation Bar by Andrew C. (https://github.com/andrewc26/P2Wildcats/blob/main/templates/easternav.html)
 - Databases by Travis M. and Andrew C. 
     - Tech Talk(http://nighthawkcoders.cf/pythondb/#FE-HTML) and (http://nighthawkcoders.cf/pythondb/#BE-VIEW)
+This is a main feature for our website. Our databases shos all user information and works hand in hand with the signup/login page to store information.
 
 # Project Overview
 Our idea is a website that teaches you about animals, specifically wildcats and their lifestyle with cool facts. 
@@ -61,6 +71,7 @@ Our idea is a website that teaches you about animals, specifically wildcats and 
 Login System: This login system is a database that will store your account information and keep track of your learning/progress on the website.
 Navigation Bar: This will have a page for the animals to learn about them as well as an about us page and embedded videos.
 Wildcat Randomization Database: The catalog page will have a randomizer where you click the button and it displays a random wildcat from our database including some info. 
+Wilcat Leaderboard: This feature will allow you to vote on your favorite cat and the percentages/number of voters for each cat are displayed.
 
 # Scrum Project Board
 https://github.com/andrewc26/P2Wildcats/projects/1
